@@ -1,4 +1,4 @@
-# Html-Projects
+# Html-Project
 My Virtual Pet
 Welcome to the My Virtual Pet project! This is a simple web application that allows users to register, interact with a virtual pet, and test their guess about the pet's name. The project includes registration functionality, a game interface with interactive elements, and audio effects to enhance the experience.
 
