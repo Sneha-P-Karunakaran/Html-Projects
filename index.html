@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Virtual Pet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Registration Form -->
+        <div id="registrationForm">
+            <h1>Welcome to My_Pet.com!</h1>
+            <p class="quote">"The best way to predict the future is to create it!"</p>
+            <form id="form">
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="password">Create a Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <button type="submit">Start Playing</button>
+            </form>
+        </div>
+
+        <!-- Game Interface -->
+        <div id="gameInterface" style="display:none;">
+            <h1>My Pet Name is.</h1>
+            <img id="petImage" src="https://static.vecteezy.com/system/resources/previews/008/386/721/original/cartoon-funny-cat-isolated-on-white-background-vector.jpg" alt="Your Pet">
+            <p id="status">Your pet is happy!</p>
+            <button id="feedButton">Feed Pet</button>
+            <button id="playButton">Play with Pet</button>
+            <button id="nextPetButton">Next Pet</button>
+            
+            <!-- New elements for guessing -->
+            <input type="text" id="guessInput" placeholder="Guess the pet's name">
+            <button id="guessButton">Guess</button>
+            <p id="guessFeedback"></p>
+            
+            <!-- Audio elements -->
+            <audio id="feedSound" src="C:\Users\sneha\OneDrive\Desktop\HTML\feedSound.mp3"></audio>
+            <audio id="playSound" src="C:\Users\sneha\OneDrive\Desktop\HTML\playing.mp3"></audio>
+            <audio id="nextSound" src="C:\Users\sneha\OneDrive\Desktop\HTML\nextSound.mp3"></audio>
+            <audio id="correctSound" src="C:\Users\sneha\OneDrive\Desktop\HTML\correctSound.mp3"></audio>
+            <audio id="incorrectSound" src="C:\Users\sneha\OneDrive\Desktop\HTML\failed.mp3"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+}
+
+/* Login Container Styles */
+.login-container {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 20px;
+}
+
+.login-container h2 {
+    color: #4CAF50;
+}
+
+.login-container p {
+    color: #555;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.login-container input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.login-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-image: #0b7dda;
+}
+
+#funnyQuote {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #FF5722;
+}
+
+/* Game Container Styles */
+.container {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 20px;
+}
+
+#petImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#guessInput {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+#guessButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#guessButton:hover {
+    background-color: #0b7dda;
+}
+
+#guessFeedback {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .login-container, .container {
+        padding: 10px;
+    }
+
+    button, #guessButton {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #guessInput {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
